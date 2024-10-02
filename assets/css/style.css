@@ -1,3 +1,10 @@
+.header {
+    margin: 0px;
+    padding: 10px;
+
+    background-color: navy;
+}
+
 .body {
     background-color: rgb(0, 0, 0);
 }
@@ -21,6 +28,19 @@
 }
 
 .block > h2, p {
+    margin: 4px;
+    font-size: 90%;
+    text-align: left;
+}
+
+.comment-block {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.comment-block p {
     margin: 4px;
     font-size: 90%;
     text-align: left;
