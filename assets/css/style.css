@@ -1,0 +1,27 @@
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.page-block {
+    margin: 12px;
+    padding: 5px;
+    background-color: #f8daaf;
+}
+
+.page-block > h1, .block {
+    margin: 10px;
+    padding: 5px;
+}
+
+.block {
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.block > h2, p {
+    margin: 4px;
+    font-size: 90%;
+    text-align: left;
+}
