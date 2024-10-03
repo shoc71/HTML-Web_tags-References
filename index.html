@@ -11,35 +11,41 @@
     <p style="color: white;">
         I'm totally supposed to add shit in here, in the header
     </p>
+    <button class="dark-mode">
+      Dark mode
+    </button>
   </header>
 
   <body class="body">
     <!-- this looks as dumb as you'd think-->
     <main>
-      
-      <section class="page-block">
-        <h1 style="text-align: center;">
-          Personal HTML Guide
-        </h1>
-        <p style="text-align: end;">
-          made by
-          <img src="https://shorturl.at/ABcDc" alt="github icon" 
-          style="height: 15px;">
-          <a href="https://github.com/shoc71" target="_blank">shoc71</a>
-        </p>
 
-        <article class="block">
-          <p>
-            To look up tag fast, <strong>Ctrl+F</strong>
-            or
-            <strong>F3 key</strong>
-            and type /("your target") -> <strong>/example</strong>
-            for example.
+      <section class="page"> <!--  -->
+          <h1 style="text-align: center;">
+            Personal HTML Guide
+          </h1>
+          <p style="text-align: end;">
+            made by
+            <a href="https://github.com/shoc71" target="_blank">
+              <img src="https://shorturl.at/ABcDc" alt="github icon" 
+            style="height: 15px;"> shoc71
+            </a>
           </p>
-        </article>
 
-        <article class="block" style="background-color: white;"></article>
+          <article class="block">
+            <p>
+              To look up tag fast, <strong>Ctrl+F</strong>
+              or
+              <strong>F3 key</strong>
+              and type /("your target") -> <strong>/example</strong>
+              for example.
+            </p>
+          </article>
+      </section>
 
+        <article class="comment block" style="background-color: white;"></article>
+
+      <section class="page">
         <article class="block">
           <h2>Why is this guide special?</h2>
           <hr />
@@ -86,7 +92,11 @@
           <p>Don't ask me what that above one.</p>
         </article>
 
-        <article class="block" style="background-color: white;"></article>
+      </section>
+
+      <article class="comment block" style="background-color: white;"></article>
+
+      <section class="page">
 
         <article class="block">
           <h1 style="text-align: center;">Official Start!</h1>
@@ -100,7 +110,7 @@
           </p>
         </article>
 
-        <article class="block" style="background-color: whitesmoke;">
+        <article class="comment block">
           <p>
             <sub>
               <i>
@@ -142,7 +152,7 @@
           </p>
         </article>
 
-        <article class="block" style="background-color: whitesmoke;">
+        <article class="comment block">
           <p>
             <sub>
               <i>
@@ -184,7 +194,7 @@
           </p>
         </article>
 
-        <article class="comment-block">
+        <article class="comment block">
           <p>
             <sub>
               <i>
@@ -213,14 +223,18 @@
         </article>
       </section>
 
+      <article class="comment block" style="background-color: white;"></article>
+
     </main>
 
-    <footer>
-      <p style="color: white;">
-        Gotta add stuff here as well.
-      </p>
-    </footer>
-
   </body>
+
+  <footer class="footer">
+    <h2 style="color: white;">Contact Me</h2>
+    <p style="color: white;">
+      Gotta add stuff here as well.
+    </p>
+  </footer>
+
   <script src="./assets/js/script.js"></script>
 </html>
