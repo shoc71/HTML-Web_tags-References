@@ -1,8 +1,29 @@
+/* Optional: styling for the header */
 .header {
+    padding: 2px;
     margin: 0px;
-    padding: 10px;
+    /* text-align: center; */
+    background-color: #ddd; /* Light mode background */
+}
 
-    background-color: navy;
+.header h2 {
+    text-align: left;
+    padding: 5px;
+    font-size: 150%;
+}
+
+/* Dark mode for the header (optional) */
+.header.dark-mode-active {
+    background-color: #252525;
+    color: white;
+}
+
+/* Button styling */
+button.dark-mode {
+    padding: 0px;
+    margin: 15px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .body {
@@ -21,6 +42,21 @@
 .page > h1, .block {
     margin: 10px;
     padding: 5px;
+}
+
+.dark-mode{
+    display: flex;
+    float: right;
+    top: 50%;
+}
+
+.header.page.dark-mode-active{
+    background-color: white;
+    color: white;
+}
+
+.header.page.dark-mode-active h2 {
+    color: white;
 }
 
 /* Dark Mode */

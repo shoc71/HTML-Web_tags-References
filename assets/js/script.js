@@ -1,7 +1,7 @@
 let darkmodeButton = document.querySelector(".dark-mode")
 
 darkmodeButton.addEventListener("click", function() {
-    let pageBlock = document.querySelectorAll(".page, .block");
+    let pageBlock = document.querySelectorAll(".page, .block, .header");
 
 
     pageBlock.forEach(function(pageBlock) {
